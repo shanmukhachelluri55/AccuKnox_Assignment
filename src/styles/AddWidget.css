@@ -1,0 +1,21 @@
+.addWidgetContainer{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+}
+.addWidgetContainer .addWidgetHeader{
+    background-color: rgba(20,20,125,1);
+    color: #fff;
+    padding: 5px;
+}
+.addWidgetContainer .addWidgetHeader i{
+    cursor: pointer;
+}
+.addWidgetContainer .addWidgetHeadline{
+    padding: 10px;
+}

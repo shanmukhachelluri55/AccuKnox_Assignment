@@ -1,0 +1,25 @@
+.dashboardHeader{
+    padding: 10px 5px;
+}
+.dashboardHeader .iconButton{
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.671);
+    border: 1px solid rgba(128, 128, 128, 0.38);
+    font-weight: 600;
+}
+.dashboardHeader .iconButton span{
+    margin-right: 12px;
+}
+.dashboardHeader .iconButton.blueIconButton{
+    color: rgba(20,20,125,1);
+    border-color: rgba(20,20,125,1);
+}
+.dashboardHeader .iconButton.blueIconButton .seperator {
+    display: inline-block;
+    margin: 0 8px;
+    height: 24px;
+    width: 2px;
+    background-color: rgba(20,20,125,1);
+    vertical-align: middle;
+}

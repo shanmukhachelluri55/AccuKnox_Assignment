@@ -1,0 +1,25 @@
+.widget{
+    height: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+.widget .widgetName{
+    font-size: 12px;
+}
+.widget .widgetBody{
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.122);
+}
+.addWidget{
+    height: 100%;
+}
+.widget .iconButton{
+    background-color: #fff;
+    border: 1.5px solid rgba(128, 128, 128, 0.38);
+    font-weight: 500;
+    font-size: 15px;
+}
+.widget .iconButton i{
+    margin-right: 5px;
+}
